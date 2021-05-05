@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITunesLibrary", "ITunesLibrary\ITunesLibrary.csproj", "{4D718FB9-AFAD-494D-9AA1-28B3FAF79763}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{387EA5E2-2C95-4815-AFD7-878A5176B570}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITunesLibrary.Tests", "ITunesLibrary.Tests\ITunesLibrary.Tests.csproj", "{4490F8F3-0432-4A19-AC8A-B03BA9902193}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4D718FB9-AFAD-494D-9AA1-28B3FAF79763}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D718FB9-AFAD-494D-9AA1-28B3FAF79763}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D718FB9-AFAD-494D-9AA1-28B3FAF79763}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D718FB9-AFAD-494D-9AA1-28B3FAF79763}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4490F8F3-0432-4A19-AC8A-B03BA9902193}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4490F8F3-0432-4A19-AC8A-B03BA9902193}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4490F8F3-0432-4A19-AC8A-B03BA9902193}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4490F8F3-0432-4A19-AC8A-B03BA9902193}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD309C42-7D57-4B77-B041-990A88A76B42}
+	EndGlobalSection
+EndGlobal
